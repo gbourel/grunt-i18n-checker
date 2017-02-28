@@ -40,11 +40,11 @@ You can specify the targets and options for the task using the normal Grunt conf
 
 ### Options
 
-#### dir
+#### src
 Type: `string`
-Default value: `"locale/"`
+Required
 
-The directory where JSON files will be read.
+The directory where JSON files (*.json) will be read.
 
 
 
@@ -54,7 +54,7 @@ Example uses
 Looks for all `*.json` files in `www/i18n/` subdirectory.
 
 <pre lang=js>
-i18n: {
+src: {
     dir: 'www/i18n/'
 }
 </pre>
