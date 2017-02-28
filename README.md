@@ -1,4 +1,4 @@
-[![NPM version](https://badge.fury.io/js/grunt-i18n-checker.svg)](http://badge.fury.io/js/grunt-i18n-checker) [![Build Status](https://travis-ci.org/gbourel/grunt-i18n-checker.svg?branch=master)](https://travis-ci.org/gbourel/grunt-i18n-checker)
+[![NPM version](https://img.shields.io/npm/v/grunt-i18n-checker.svg)](https://npmjs.org/package/grunt-i18n-checker) [![Build Status](https://travis-ci.org/gbourel/grunt-i18n-checker.svg?branch=master)](https://travis-ci.org/gbourel/grunt-i18n-checker) [![devDependencies Status](https://david-dm.org/gbourel/grunt-i18n-checker/dev-status.svg)](https://david-dm.org/gbourel/grunt-i18n-checker?type=dev)
 
 grunt-i18n-checker
 ====================
