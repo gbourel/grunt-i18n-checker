@@ -1,6 +1,6 @@
 {
   "name": "grunt-i18n-checker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple checker which ensure consistency between i18n JSON data.",
   "scripts": {
     "test": "grunt test"

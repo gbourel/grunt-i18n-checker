@@ -60,7 +60,6 @@ module.exports = function(grunt) {
       });
 
       inputFiles.forEach(function(jsonFile) {
-        console.warn(jsonFile);
         var keys = readKeys(dir, jsonFile);
         // First file found, init keys reference array
         if (primaryKeys === null) {
@@ -80,7 +79,7 @@ module.exports = function(grunt) {
       return false;
     }
 
-    grunt.log.ok(keyCount + ' key' + (keyCount > 1 ? 's' : '') + ' checked in ' +
+    grunt.log.ok(keyCount + ' translation key' + (keyCount > 1 ? 's' : '') + ' checked in ' +
       fileCount + ' file' + (fileCount > 1 ? 's' : ''));
   });
 };

@@ -32,7 +32,7 @@ exports.i18nChecker = {
     test.expect(1);
     exec('grunt i18nChecker:simple', execOptions, function(error, stdout) {
       test.equal(
-        stdout.indexOf('4 keys checked in 3 files') > -1,
+        stdout.indexOf('4 translation keys checked in 3 files') > -1,
         true,
         'Invalid "simple" JSON check result.'
       );
@@ -43,7 +43,7 @@ exports.i18nChecker = {
     test.expect(1);
     exec('grunt i18nChecker:hierarchy', execOptions, function(error, stdout) {
       test.equal(
-        stdout.indexOf('6 keys checked in 3 files') > -1,
+        stdout.indexOf('6 translation keys checked in 3 files') > -1,
         true,
         'Invalid "hierarchy" JSON check result.'
       );
