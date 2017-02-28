@@ -1,0 +1,12 @@
+{
+	"first-message-key": "first message value",
+	"second-message-key": "second message value",
+  "mainkey": {
+    "first-subkey": "first message subvalue",
+    "seconde-subkey": "second message subvalue",
+    "subkey": {
+      "first-subsubkey": "first message sub subvalue",
+      "seconde-subsubkey": "second message sub subvalue"
+    }
+  }
+}
