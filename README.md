@@ -32,7 +32,7 @@ grunt.loadNpmTasks( 'grunt-i18n-checker' );
 Running and configuring
 --------------------
 
-_Run this task with the `grunt i18n-checker` command._
+_Run this task with the `grunt i18nChecker` command._
 
 This is designed to be very simple and need only a few configuring for the most common cases.
 
@@ -54,7 +54,9 @@ Example uses
 Looks for all `*.json` files in `www/i18n/` subdirectory.
 
 <pre lang=js>
-src: {
-    dir: 'www/i18n/'
-}
+  i18nChecker: {
+    all: {
+      src: 'www/i18n/'
+    }
+  }
 </pre>
