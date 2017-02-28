@@ -1,0 +1,24 @@
+{
+  "name": "grunt-i18n-checker",
+  "version": "0.1.0",
+  "description": "A simple checker which ensure consistency between i18n JSON data.",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/not yet"
+  },
+  "keywords": [
+    "gruntplugin",
+    "checker",
+    "i18n"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "1.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-jscs": "2.8.0"
+  }
+}
