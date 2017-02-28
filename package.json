@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/not yet"
+    "url": "git://github.com/gbourel/grunt-i18n-checker"
   },
   "keywords": [
     "gruntplugin",
